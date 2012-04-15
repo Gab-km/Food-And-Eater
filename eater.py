@@ -13,6 +13,4 @@ class Carnivore(Eater):
 
 
 class Vegetarian(Eater):
-
-    def eat(self, food):
-        return food.is_eaten_by(self)
+    pass
