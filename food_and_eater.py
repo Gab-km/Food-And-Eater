@@ -12,7 +12,9 @@ class Food:
     pass
 
 class Meat(Food):
-    pass
+    
+    def __init__(self, name):
+        self.__name = name
 
 class Taste:
 
