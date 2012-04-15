@@ -3,7 +3,7 @@
 class Eater:
     
     def eat(self, food):
-        return Taste("food")
+        return Taste()
 
 class Carnivore(Eater):
     
