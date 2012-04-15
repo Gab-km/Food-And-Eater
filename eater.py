@@ -5,13 +5,11 @@ from taste import Taste
 class Eater:
     
     def eat(self, food):
-        return Taste()
+        return food.is_eaten_by(self)
 
 
 class Carnivore(Eater):
-    
-    def eat(self, food):
-        return food.is_eaten_by(self)
+    pass
 
 
 class Vegetarian(Eater):
