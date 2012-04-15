@@ -28,7 +28,7 @@ class Vegetable(Food):
 
 class Taste:
 
-    def __init__(self, tasty):
+    def __init__(self, tasty=True):
         self.__tasty = tasty
 
     def __eq__(self, other):
