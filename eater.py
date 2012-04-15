@@ -13,4 +13,7 @@ class Carnivore(Eater):
         else:
             return Taste(tasty=False)
 
+class Vegetarian(Eater):
 
+    def eat(self, food):
+        return Taste(tasty=True)
