@@ -8,7 +8,10 @@ class Eater:
 class Carnivore(Eater):
     
     def eat(self, food):
-        return Taste(tasty=True)
+        if isinstance(food, Meat):
+            return Taste(tasty=True)
+        else:
+            return Taste(tasty=False)
 
 class Food:
     pass
