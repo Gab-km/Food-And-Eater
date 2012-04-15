@@ -10,7 +10,7 @@ class Eater:
 class Carnivore(Eater):
     
     def eat(self, food):
-        food.is_eaten_by(self)
+        return food.is_eaten_by(self)
 
 
 class Vegetarian(Eater):
