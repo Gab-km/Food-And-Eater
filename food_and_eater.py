@@ -6,7 +6,9 @@ class Eater:
         return Taste("food")
 
 class Carnivore(Eater):
-    pass
+    
+    def eat(self, food):
+        return Taste(tasty=True)
 
 class Food:
     pass
