@@ -11,10 +11,8 @@ class Eater:
 class Carnivore(Eater):
     
     def eat(self, food):
-        if isinstance(food, Meat):
-            return Taste(tasty=True)
-        else:
-            return Taste(tasty=False)
+        food.is_eaten_by(self)
+
 
 class Vegetarian(Eater):
 
