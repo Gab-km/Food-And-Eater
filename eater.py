@@ -1,5 +1,7 @@
 # -*- coding: utf-8 -*-
 
+from taste import Taste
+
 class Eater:
     
     def eat(self, food):
