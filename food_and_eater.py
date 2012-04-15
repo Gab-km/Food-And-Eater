@@ -1,7 +1,9 @@
 # -*- coding: utf-8 -*-
 
 class Eater:
-    pass
+    
+    def eat(self, food):
+        pass
 
 class Food:
     pass
