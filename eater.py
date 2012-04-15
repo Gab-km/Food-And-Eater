@@ -1,7 +1,6 @@
 # -*- coding: utf-8 -*-
 
 from taste import Taste
-from food import Meat, Vegetable
 
 class Eater:
     

@@ -1,5 +1,7 @@
 # -*- coding: utf-8 -*-
 
+from eater import Carnivore
+
 class Food:
 
     def __init__(self, name):
