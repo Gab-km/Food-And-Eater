@@ -9,3 +9,4 @@ def test():
     assert Carnivore().eat(Meat("Steak")) == Taste(tasty=True)
     assert Carnivore().eat(Vegetable("Salad")) == Taste(tasty=False)
     assert Vegetarian().eat(Vegetable("salad")) == Taste(tasty=True)
+    assert Vegetarian().eat(Meat("Steak")) == Taste(tasty=False)
