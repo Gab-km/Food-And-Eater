@@ -11,6 +11,7 @@ class Food:
     def is_eaten_by(self, eater):
         pass
 
+
 class Meat(Food):
     
     def is_eaten_by(self, eater):
@@ -18,6 +19,7 @@ class Meat(Food):
             return Taste(tasty=True)
         else:
             return Taste(tasty=False)
+
 
 class Vegetable(Food):
     
