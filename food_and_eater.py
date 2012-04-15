@@ -5,13 +5,23 @@ class Eater:
     def eat(self, food):
         return Taste("food")
 
+class Carnivore(Eater):
+    
+    def eat(self, food):
+        return Taste(tasty=True)
+
 class Food:
     pass
 
-class Taste:
-
+class Meat(Food):
+    
     def __init__(self, name):
         self.__name = name
 
+class Taste:
+
+    def __init__(self, tasty):
+        self.__tasty = tasty
+
     def __eq__(self, other):
-        return self.__name == other.__name
+        return self.__tasty == other.__tasty
