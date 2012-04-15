@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-from eater import Carnivore
+from eater import Carnivore, Vegetarian
 from taste import Taste
 
 class Food:
