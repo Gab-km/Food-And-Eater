@@ -5,3 +5,6 @@ class Eater:
 
 class Food:
     pass
+
+class Taste:
+    pass
