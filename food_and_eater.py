@@ -5,6 +5,9 @@ class Eater:
     def eat(self, food):
         return Taste("food")
 
+class Carnivore(Eater):
+    pass
+
 class Food:
     pass
 
