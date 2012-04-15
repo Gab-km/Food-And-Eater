@@ -3,4 +3,4 @@
 from food_and_eater import Eater, Food, Taste
 
 def test():
-    assert Eater().eat(Food()) == Taste()
+    assert Eater().eat(Food()) == Taste("food")
