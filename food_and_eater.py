@@ -14,13 +14,13 @@ class Carnivore(Eater):
             return Taste(tasty=False)
 
 class Food:
-    pass
 
-class Meat(Food):
-    
     def __init__(self, name):
         self.__name = name
 
+class Meat(Food):
+    pass
+    
 class Vegetable(Food):
     
     def __init__(self, name):
