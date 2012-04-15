@@ -18,8 +18,8 @@ class Meat(Food):
 
 class Taste:
 
-    def __init__(self, name):
-        self.__name = name
+    def __init__(self, tasty):
+        self.__tasty = tasty
 
     def __eq__(self, other):
-        return self.__name == other.__name
+        return self.__tasty == other.__tasty
