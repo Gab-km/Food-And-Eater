@@ -22,9 +22,7 @@ class Meat(Food):
     pass
     
 class Vegetable(Food):
-    
-    def __init__(self, name):
-        self.__name = name
+    pass    
 
 class Taste:
 
