@@ -2,3 +2,6 @@
 
 class Eater:
     pass
+
+class Food:
+    pass
