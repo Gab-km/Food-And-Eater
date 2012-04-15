@@ -18,6 +18,11 @@ class Meat(Food):
     def __init__(self, name):
         self.__name = name
 
+class Vegetable(Food):
+    
+    def __init__(self, name):
+        self.__name = name
+
 class Taste:
 
     def __init__(self, tasty):
