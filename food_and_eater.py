@@ -11,6 +11,9 @@ class Carnivore(Eater):
 class Food:
     pass
 
+class Meat(Food):
+    pass
+
 class Taste:
 
     def __init__(self, name):
