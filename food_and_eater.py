@@ -3,24 +3,30 @@
 class Eater:
     
     def eat(self, food):
-        return Taste("food")
+        return Taste()
 
 class Carnivore(Eater):
     
     def eat(self, food):
-        return Taste(tasty=True)
+        if isinstance(food, Meat):
+            return Taste(tasty=True)
+        else:
+            return Taste(tasty=False)
 
 class Food:
-    pass
 
-class Meat(Food):
-    
     def __init__(self, name):
         self.__name = name
 
+class Meat(Food):
+    pass
+    
+class Vegetable(Food):
+    pass    
+
 class Taste:
 
-    def __init__(self, tasty):
+    def __init__(self, tasty=True):
         self.__tasty = tasty
 
     def __eq__(self, other):
